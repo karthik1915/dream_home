@@ -1,23 +1,25 @@
 .overlay {
-  @apply hidden lg:block absolute bottom-0 left-0 w-full h-2/3 p-8;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  @apply hidden lg:grid absolute w-full max-w-screen-2xl h-2/3 p-8;
+  grid-template-rows: 1fr 1fr 68px;
+  grid-template-columns: 1fr 450px;
   @apply gap-6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .overlay > div {
-  @apply border border-black rounded-xl;
+  @apply border border-black/60 rounded-xl;
 }
 
 .first {
-  @apply h-full col-span-1 row-span-2;
+  @apply bg-slate-200 h-full col-span-1 row-span-3 p-3;
 }
 
 .second {
-  @apply col-span-1 row-span-1;
+  @apply bg-slate-200 col-span-1 row-span-2  p-3;
 }
 
 .third {
-  @apply col-span-1 row-span-1;
+  @apply bg-slate-200 col-span-1 row-span-1;
 }

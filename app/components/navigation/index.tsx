@@ -23,7 +23,7 @@ function NavBar({ shouldHide = false }: NavBarProps) {
 
       // Only apply the scroll logic for screens above the 'md' breakpoint
       const handleResize = () => {
-        if (window.innerWidth >= 768) {
+        if (window.innerWidth >= 1024) {
           window.addEventListener("scroll", handleScroll);
         } else {
           setShowNav(true); // Always show the navbar on smaller screens
@@ -93,7 +93,6 @@ function NavBar({ shouldHide = false }: NavBarProps) {
             <Link className="navLink" href="/projects">
               Projects
             </Link>
-            <Link href="/#contact">Contact</Link>
           </div>
           <div className="hidden md:flex">
             <Link href="/#contact">Contact</Link>
