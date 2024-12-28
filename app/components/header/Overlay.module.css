@@ -1,0 +1,23 @@
+.overlay {
+  @apply hidden lg:block absolute bottom-0 left-0 w-full h-2/3 p-8;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  @apply gap-6;
+}
+
+.overlay > div {
+  @apply border border-black rounded-xl;
+}
+
+.first {
+  @apply h-full col-span-1 row-span-2;
+}
+
+.second {
+  @apply col-span-1 row-span-1;
+}
+
+.third {
+  @apply col-span-1 row-span-1;
+}

@@ -3,7 +3,18 @@
 @tailwind utilities;
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  @apply font-geist-sans;
+}
+section {
+  @apply px-2;
+}
+
+h2 {
+  @apply text-xl md:text-2xl lg:text-3xl font-semibold my-4 text-center font-humant-bold;
+}
+
+.navLink {
+  @apply text-lg font-humant-bold font-bold;
 }
 
 @layer base {

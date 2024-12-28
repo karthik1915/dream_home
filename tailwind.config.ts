@@ -61,6 +61,17 @@ export default {
   				ring: 'hsl(var(--sidebar-ring))'
   			}
   		},
+  		fontFamily: {
+  			'geist-sans': [
+  				'var(--font-geist-sans)'
+  			],
+  			'alfa-slab': [
+  				'var(--font-alfa-slab)'
+  			],
+  			'humant-bold': [
+  				'var(--font-humant-bold)'
+  			]
+  		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

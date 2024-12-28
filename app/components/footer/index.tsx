@@ -19,7 +19,7 @@ function Footer() {
       </div>
       <hr />
       <p className="text-sm text-center py-2">
-        &copy; 2024 all rights Reserved
+        &copy; 2025 all rights Reserved
       </p>
     </footer>
   );

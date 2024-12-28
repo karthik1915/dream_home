@@ -26,7 +26,7 @@ function Logo({
         width={width}
         height={height}
       />
-      <p className="text-lg text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500 font-[family-name:var(--font-alfa-slab)] tracking-wider">
+      <p className="text-lg text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500 font-alfa-slab tracking-wider">
         DREAM HOME
       </p>
     </Link>
