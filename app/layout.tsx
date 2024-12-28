@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${alfaSlab.variable} antialiased `}
+        className={`${geistSans.variable} ${alfaSlab.variable} ${humantBold.variable} antialiased `}
       >
         {children}
       </body>
